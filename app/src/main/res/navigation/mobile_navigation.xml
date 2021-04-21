@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_christiansearch">
+
+    <fragment
+        android:id="@+id/nav_worldmission"
+        android:name="com.hkkim.adcab.fragment.WorldMissionFragment"
+        android:label="@string/world_mission"
+        tools:layout="@layout/world_mission_fragment" />
+    <fragment
+        android:id="@+id/nav_yearplan"
+        android:name="com.hkkim.adcab.fragment.YearPlanFragment"
+        android:label="@string/year_plan"
+        tools:layout="@layout/year_plan_fragment" />
+    <fragment
+        android:id="@+id/nav_parishguide"
+        android:name="com.hkkim.adcab.fragment.ParishGuideFragment"
+        android:label="@string/parish_guide"
+        tools:layout="@layout/parish_guide_fragment" />
+    <fragment
+        android:id="@+id/nav_notice"
+        android:name="com.hkkim.adcab.fragment.NoticeFragment"
+        android:label="@string/notice"
+        tools:layout="@layout/notice_fragment" />
+    <fragment
+        android:id="@+id/nav_appinfo"
+        android:name="com.hkkim.adcab.fragment.AppInfoFragment"
+        android:label="@string/app_info"
+        tools:layout="@layout/app_info_fragment" />
+
+    <fragment
+        android:id="@+id/nav_christiansearch"
+        android:name="com.hkkim.adcab.fragment.ChristianFragment"
+        android:label="@string/christian_search"
+        tools:layout="@layout/christian_fragment" />
+    <fragment
+        android:id="@+id/nav_preacherlist"
+        android:name="com.hkkim.adcab.fragment.PreacherFragment"
+        android:label="@string/preacher_list"
+        tools:layout="@layout/preacher_fragment" />
+    <fragment
+        android:id="@+id/nav_executivelist"
+        android:name="com.hkkim.adcab.fragment.ExecutiveFragment"
+        android:label="@string/executive_list"
+        tools:layout="@layout/executive_fragment" />
+    <fragment
+        android:id="@+id/nav_christianregister"
+        android:name="com.hkkim.adcab.fragment.RegisterFragment"
+        android:label="@string/christian_register"
+        tools:layout="@layout/register_fragment" />
+    <fragment
+        android:id="@+id/nav_carinquiry"
+        android:name="com.hkkim.adcab.fragment.CarFragment"
+        android:label="@string/car_inquiry"
+        tools:layout="@layout/car_fragment" />
+</navigation>

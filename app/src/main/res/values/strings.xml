@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">성도주소록</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">성도 주소록</string>
+    <string name="nav_header_subtitle">수원교회</string>
+    <string name="nav_header_desc">수원교회 성도주소록</string>
+    <string name="action_settings">설정</string>
+
+    <string name="app_detail_name">성도 상세 정보</string>
+
+    <string name="world_mission">세계선교</string>
+    <string name="year_plan">연간계획</string>
+    <string name="parish_guide">교구안내도</string>
+    <string name="notice">공지사항</string>
+    <string name="app_info">앱정보</string>
+
+    <string name="christian_search">성도 검색</string>
+    <string name="preacher_list">전도인 현황</string>
+    <string name="executive_list">임원 현황</string>
+    <string name="christian_register">성도 등록</string>
+    <string name="car_inquiry">차량 조회</string>
+    <string name="title_activity_christian_detail">ChristianDetailActivity</string>
+
+    <!-- Strings related to login -->
+    <string name="chrName">이름/ID</string>
+    <string name="chrPassword">비밀번호</string>
+    <string name="chrMobile">전화번호</string>
+    <string name="action_sign_in">로그인</string>
+    <string name="switch_auto_sign_in">자동 로그인</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="join_notice">"신규 가입은 소속 구역장님께 문의하세요"</string>
+</resources>
